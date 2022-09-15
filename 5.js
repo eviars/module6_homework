@@ -5,6 +5,6 @@
 // Используйте Arrow Function синтаксис.
 // Протестируйте функцию на любых значениях и выведите результат в консоль.
 
-const exponentNumb = (x,n) => console.log (Math.pow (x,n));
+const exponentNumb = (x,n) => Math.pow (x,n);
 
-exponentNumb (12,2);
+console.log(exponentNumb (12,2));
